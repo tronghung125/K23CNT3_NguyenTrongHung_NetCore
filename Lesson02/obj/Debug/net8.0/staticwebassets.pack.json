@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\Lesson02.bundle.scp.css"
     },
     {
+      "Id": "D:\\NetCore\\K23CNT3_NguyenTrongHung_NetCore\\Lesson02\\wwwroot\\Avatar\\avt1.webp",
+      "PackagePath": "staticwebassets\\Avatar\\avt1.webp"
+    },
+    {
+      "Id": "D:\\NetCore\\K23CNT3_NguyenTrongHung_NetCore\\Lesson02\\wwwroot\\Avatar\\avt2.webp",
+      "PackagePath": "staticwebassets\\Avatar\\avt2.webp"
+    },
+    {
+      "Id": "D:\\NetCore\\K23CNT3_NguyenTrongHung_NetCore\\Lesson02\\wwwroot\\Avatar\\avt3.webp",
+      "PackagePath": "staticwebassets\\Avatar\\avt3.webp"
+    },
+    {
+      "Id": "D:\\NetCore\\K23CNT3_NguyenTrongHung_NetCore\\Lesson02\\wwwroot\\Avatar\\avt4.webp",
+      "PackagePath": "staticwebassets\\Avatar\\avt4.webp"
+    },
+    {
+      "Id": "D:\\NetCore\\K23CNT3_NguyenTrongHung_NetCore\\Lesson02\\wwwroot\\Avatar\\avt5.webp",
+      "PackagePath": "staticwebassets\\Avatar\\avt5.webp"
+    },
+    {
+      "Id": "D:\\NetCore\\K23CNT3_NguyenTrongHung_NetCore\\Lesson02\\wwwroot\\Avatar\\avt6.webp",
+      "PackagePath": "staticwebassets\\Avatar\\avt6.webp"
+    },
+    {
       "Id": "D:\\NetCore\\K23CNT3_NguyenTrongHung_NetCore\\Lesson02\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\NetCore\K23CNT3_NguyenTrongHung_NetCore\Lesson02
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/NetCore/K23CNT3_NguyenTrongHung_NetCore/Lesson02/Views/NthAccount/NthIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnRoQWNjb3VudFxOdGhJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NetCore/K23CNT3_NguyenTrongHung_NetCore/Lesson02/Views/NthAccount/NthProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnRoQWNjb3VudFxOdGhQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/NetCore/K23CNT3_NguyenTrongHung_NetCore/Lesson02/Views/NthHome/NthAbout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnRoSG9tZVxOdGhBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
