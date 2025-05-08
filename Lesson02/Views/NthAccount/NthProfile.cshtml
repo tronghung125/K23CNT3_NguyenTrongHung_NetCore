@@ -1,34 +1,31 @@
 ﻿@{
-    ViewData["Title"] = "Profile";
-    var account = ViewBag.account;
+    ViewData["Title"] = "Profiles";
+    var accounts = ViewBag.Accounts as List<Lesson02.Models.NthAccount>;
 }
 
-<h2>Your Profile</h2>
-<div class="row">
-    <div class="col-md-4">
-        <img src="@account.Avatar" alt="" style="width:100%" />
-    </div>
-    <div class="col-md-8">
-        <h2>Full Name: @account.Name</h2>
-        <h3>Email: @account.Email</h3>
-        <h3>Phone: @account.Phone</h3>
-        <h3>Address: @account.Address</h3>
-        <h3>Bio: @account.Bio</h3>
-        <h3>
-            Gender:
-            @if (account.Gender == 1)
-            {
-                <span>Male</span>
-            }
-            else
-            {
-                <span>Female</span>
-            }
-        </h3>
-        <h3>Birthday: @account.Birthday.ToString("dd/MM/yyyy")</h3>
+<h2>All Profiles</h2>
 
-        <p>
-            <a asp-controller="NthAccount" asp-action="NthIndex" class="btn btn-sm btn-danger">Back to list</a>
-        </p>
+@foreach (var account in accounts)
+{
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="@account.Avatar" class="img-fluid rounded-start" alt="Avatar" />
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">@account.Name</h5>
+                    <p class="card-text"><strong>Email:</strong> @account.Email</p>
+                    <p class="card-text"><strong>Phone:</strong> @account.Phone</p>
+                    <p class="card-text"><strong>Address:</strong> @account.Address</p>
+                    <p class="card-text"><strong>Bio:</strong> @account.Bio</p>
+                    <p class="card-text"><strong>Gender:</strong> @(account.Gender == 1 ? "Male" : "Female")</p>
+                    <p class="card-text"><strong>Birthday:</strong> @account.Birthday.ToString("dd/MM/yyyy")</p>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+}
+<p>
+    <a asp-controller="NthAccount" asp-action="NthIndex" class="btn btn-danger">Back to list</a>
+</p>
